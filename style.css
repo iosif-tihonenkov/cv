@@ -1,0 +1,29 @@
+.header-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+.header-menu li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.header-menu li {
+    padding: 10px;
+}
+
+.header-menu li:hover {
+    background-color: #555;
+    color: white;
+}
+
+header {
+    background-color: #f1f1f1;
+    height: 38px;
+}
