@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script/slider.js"></script>
+    <script src="script/todo.js"></script>
 </head>
 <body>
     <header>
@@ -25,6 +26,17 @@
             <img src="img/1.png" id="slider">
             <button onclick="nextImg()">Вперед</button>
         </div>
+    </section>
+    <section class="todo">
+        <h2>Список</h2>
+        <ul id="todotodo">
+
+        </ul>
+        <form onsubmit="return addToDoList()" method="post">
+            <input type="text" id="listtodo" placeholder="Введите текст">
+            <input type="submit" value="submit">
+        </form>
+        
     </section>
 </body>
 </html>
