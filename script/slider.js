@@ -7,6 +7,14 @@ let images = [
 ];
 
 let num = 0;
+function nextImg() {
+    let slider = document.getElementById('slider');
+    num++;
+    if(num >= images.length) {
+        num = 0;
+    }
+    slider.src = images[num];
+}
 
 function backImg() {
     let slider = document.getElementById('slider');
